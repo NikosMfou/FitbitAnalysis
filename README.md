@@ -18,9 +18,15 @@ Algorithms Used
 - Hierarchical Clustering (Ward linkage)
 
 Datasets and Features
-- **Sleep-related:** Sleep_Stage, dateOfSleep, minutesToFallAsleep, minutesAsleep, timeInBed, SleepScore
-- **Activity-related:** CaloriesBurned, Steps, Distance km, stress_1, stress_2, stress_3
-- **Mobile usage:** Notifications, Screen Time (per hour and total), App Openings
+
+This project uses multiple datasets for clustering analysis and evaluation.
+The final dataset was manually created and contains 21,615 rows, representing a much larger number of underlying records and activity events.
+Due to its size limitations, the full dataset is not included in this repository.  
+Instead, smaller datasets and samples are provided to demonstrate the methodology and results.
+
+- Sleep-related: Sleep_Stage, dateOfSleep, minutesToFallAsleep, minutesAsleep, timeInBed, SleepScore
+- Activity-related: CaloriesBurned, Steps, Distance km, stress_1, stress_2, stress_3
+- Mobile usage: Notifications, Screen Time (per hour and total), App Openings
 
 #Highlights
 - K-Means: Best k=2 for sleep, k=10 for steps & mobile use
